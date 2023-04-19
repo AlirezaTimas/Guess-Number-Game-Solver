@@ -8,3 +8,14 @@ C:\Users\gheir\source\repos\Game\Game\obj\Debug\Game.csproj.GenerateResource.cac
 C:\Users\gheir\source\repos\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
 C:\Users\gheir\source\repos\Game\Game\obj\Debug\Game.exe
 C:\Users\gheir\source\repos\Game\Game\obj\Debug\Game.pdb
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\bin\Debug\Game.exe.config
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\bin\Debug\Game.exe
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\bin\Debug\Game.pdb
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.Form1.resources
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.exe
+C:\Users\Markazi.co\source\repos\AlirezaTimas\Guess-Number-Game-Solver\Game\obj\Debug\Game.pdb

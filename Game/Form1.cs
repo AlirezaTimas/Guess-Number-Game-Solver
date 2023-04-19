@@ -12,6 +12,7 @@ namespace Game
 {
     public partial class Form1 : Form
     {
+       
         int rnd = 0, counter = 0;
         public Form1()
         {
@@ -56,11 +57,63 @@ namespace Game
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int tester = (999 - 100) / 2;
+            int maxallowedvalue = 999;
+            int minallowedvalue = 100;
+            int c = 0;
+            c = 1;
+            listBox2.Items.Add(tester);
+            if (tester == rnd)
+            {
+                MessageBox.Show("the answer is: " + tester + " and the number of tries: " + c);
+            }
+            else
+            {
+
+
+                while (tester != rnd)
+                {
+                    if (tester>rnd)
+                    {
+                        maxallowedvalue = tester;
+                        tester = tester - ((tester - minallowedvalue) / 2);
+                        c++;
+                        listBox2.Items.Add(tester);
+
+                    }
+                    else
+                    {
+                        minallowedvalue = tester;
+                        tester = ((maxallowedvalue - tester) / 2) + tester;
+                        c++;
+                        listBox2.Items.Add(tester);
+                    }
+                  
+                }
+                MessageBox.Show("the answer is: " + tester + " and the number of tries: " + c);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Random r = new Random();
+            rnd = r.Next(100, 999);
+            counter = 0;
+            label1.Text = "Answer is : " + rnd.ToString();
+            label2.Text = "Round: " + counter.ToString();
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            button1.Enabled = true;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Random r = new Random();
             rnd = r.Next(100,999);
-            label1.Text = rnd.ToString();
+            label1.Text =  "Answer is : "+ rnd.ToString();
             label2.Text = "Round: " + counter.ToString();
         }
     }
